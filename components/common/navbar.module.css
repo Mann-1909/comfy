@@ -1,0 +1,36 @@
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    height:110px;
+    gap: 718px;
+    padding:0 64px;
+}
+.wrapper-left{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.wrapper-right{
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+.logo{
+    background-image: url('/images/sofa.png');
+    background-position: 0;
+    height: 43px;
+    width: 43px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.title{
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 500;
+}
+.link{
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 500;
+}

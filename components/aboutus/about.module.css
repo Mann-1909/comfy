@@ -1,0 +1,28 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+}
+.title{
+    font-size: 48px;
+    font-family: Poppins;
+    font-weight: 500;
+    color: black;
+}
+.text{
+    font-size: 22px;
+    font-weight: 500;
+    font-family: Poppins;
+    color: #808080;
+    width: 490px;
+    height: 322px;
+}
+.image{
+    background: url('/images/aboutus.png') no-repeat;
+    background-position: 0;
+    background-size: contain;
+    width: 650px;
+    height: 527px;
+
+}
