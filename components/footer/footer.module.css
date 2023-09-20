@@ -1,0 +1,72 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 88px 100px;
+  background-color: #389172;
+  height: 210px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.logoline {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  background-image: url("/images/sofa.png");
+  background-repeat: no-repeat;
+  background-position: 0;
+  background-size: contain;
+  height: 54px;
+  width: 54px;
+}
+.comfy {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 35.32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.copyright {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+
+}
+.social {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  
+}
+.site {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+   
+}
+.arrow{
+    background-image: url("/images/arrow.png");
+    background-repeat: no-repeat;
+    background-position: 0;
+    background-size: contain;
+    height: 33px;
+    width: 33px;
+}

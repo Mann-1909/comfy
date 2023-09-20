@@ -1,20 +1,116 @@
-.wrapper{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 128px 208px;
 }
-.wrapper-left{
+.wrapper-left {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  background-color: #389172;
+  height: 569px;
+  width: 512px;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper-right {
+  background: url("/images/contact.png") no-repeat;
+  background-position: 0;
+  background-size: contain;
+  height: 569px;
+  width: 512px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    
     gap: 18px;
 }
-.wrapper-right{
-    background: url('/images/contact.png') no-repeat;
-    background-position: 0;
-    background-size: contain;
-    height: 569px;
-    width: 512px;
+.contact {
+  font-family: "Poppins";
+  font-size: 48px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.name {
+  height: 56px;
+  width: 426px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  border: none;
+}
+.name::placeholder {
+    padding: 19px 21px;
+  color: #ffffff80;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 500;
+}
+.name:focus{
+  outline: none;
+  color: #ffffff;
+  opacity: 1;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 500;
+}
+.email {
+  height: 56px;
+  width: 426px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff80;
+  border:none;
+}
+.email::placeholder {
+    color: #ffffff80;
+    padding: 19px 21px;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 500;
+  }
+.email:focus {
+    outline: none;
+    }
+
+.message {
+  height: 151px;
+  width: 426px;
+  resize: none;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+
+  border: none;
+}
+.message::placeholder {
+    color: #ffffff80;
+    padding: 19px 21px;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 500;
+  }
+.message:focus {
+  outline: none;
+}
+.button{
+  height: 54px;
+  width: 119px;
+  border-radius: 8px;
+  border-color: #389172;
+  border: 2px solid #fff;
+  background: #fff;
+  color: #389172;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
+
 }
