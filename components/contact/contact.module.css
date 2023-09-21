@@ -3,6 +3,7 @@
   justify-content: center;
   align-items: center;
   padding: 128px 208px;
+  ;
 }
 .wrapper-left {
   display: flex;
@@ -38,14 +39,15 @@
   color: #ffffff;
 }
 .name {
-  height: 56px;
-  width: 426px;
+  height: 22px;
+  width: 384px;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 8px;
   border: none;
+  padding: 19px 21px;
 }
-.name::placeholder {
-    padding: 19px 21px;
+.name::placeholder{
+    padding: 0px 0px;
   color: #ffffff80;
   font-family: "Poppins";
   font-size: 18px;
@@ -60,42 +62,57 @@
   font-weight: 500;
 }
 .email {
-  height: 56px;
-  width: 426px;
+  height: 22px;
+  width: 384px;
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.1);
   color: #ffffff80;
   border:none;
+  padding: 19px 21px;
 }
 .email::placeholder {
     color: #ffffff80;
-    padding: 19px 21px;
+    padding: 0;
     font-family: "Poppins";
     font-size: 18px;
     font-weight: 500;
   }
 .email:focus {
-    outline: none;
+  outline: none;
+  color: #ffffff;
+  opacity: 1;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 500;
     }
 
 .message {
-  height: 151px;
-  width: 426px;
+  height: 132px;
+  width: 384px;
   resize: none;
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.1);
+  padding: 19px 21px 0px 21px;
+  overflow: auto;
+  
+
 
   border: none;
 }
 .message::placeholder {
     color: #ffffff80;
-    padding: 19px 21px;
+    /* padding: 19px 21px; */
     font-family: "Poppins";
     font-size: 18px;
     font-weight: 500;
   }
 .message:focus {
   outline: none;
+  color: #ffffff;
+  opacity: 1;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 500;
 }
 .button{
   height: 54px;
@@ -113,4 +130,14 @@
     align-items: center;
     
 
+}
+@media screen and (max-width:1480px) {
+  .wrapper-right{
+    display: none;
+  }
+  .wrapper-left{
+    
+
+  }
+  
 }
