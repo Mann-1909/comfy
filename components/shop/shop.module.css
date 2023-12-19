@@ -1,0 +1,21 @@
+.main-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 41px;
+    height: 540px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 425px;
+}
+
+
+.img{
+    background-image: url('/images/item1.png');
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+}

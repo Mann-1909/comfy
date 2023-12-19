@@ -6,6 +6,10 @@
     padding-top: 100px;
     padding-bottom: 100px;
 }
+.text-wrapper{
+    display: flex;
+    flex-direction: column;
+}
 .title{
     font-size: 48px;
     font-family: Poppins;
@@ -26,5 +30,46 @@
     background-size: contain;
     width: 650px;
     height: 527px;
+
+}
+
+@media screen and (max-width:1400px){
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:100px;
+        padding-top: 50px;
+        padding-bottom: 0px;
+    }
+    .title{
+        font-size: 30px;
+        font-family: Poppins;
+        font-weight: 500;
+        color: black;
+    }
+    .text{
+        font-size: 16px;
+        font-weight: 500;
+        font-family: Poppins;
+        color: #808080;
+        width: 300px;
+        height: 150px;
+    }
+    .image{
+        background: url('/images/aboutus.png') no-repeat;
+        background-position: 0;
+        background-size: contain;
+        width: 440px;
+        height: 350px;
+        display: flex;
+        align-self:center;
+    
+    }
+    .text-wrapper{
+        /* width: 50%; */
+    }
+
 
 }

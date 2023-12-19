@@ -132,12 +132,142 @@
 
 }
 @media screen and (max-width:1480px) {
-  .wrapper-right{
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 128px;
+    width: 75%;
+    height: 75%;
+    
+  }
+  .wrapper-left {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    background-color: #389172;
+    height: 100%px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+    background-image: url('/images/contact.png');
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    filter: contrast(100%) ;
+    
+  }
+  .wrapper-right {
     display: none;
   }
-  .wrapper-left{
-    
-
+  .form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      
+      gap: 10px;
   }
+  .contact {
+    font-family: "Poppins";
+    font-size: 30px;
+    font-weight: 500;
+    color: #ffffff;
+  }
+  .name {
+    height: 16px;
+    width: 220px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    border: none;
+    padding: 19px 21px;
+  }
+  .name::placeholder{
+      padding: 0px 0px;
+    color: #ffffff80;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .name:focus{
+    outline: none;
+    color: #ffffff;
+    opacity: 1;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .email {
+    height: 16px;
+    width: 220px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.5);
+    color: #ffffff80;
+    border:none;
+    padding: 19px 21px;
+  }
+  .email::placeholder {
+      color: #ffffff80;
+      padding: 0;
+      font-family: "Poppins";
+      font-size: 18px;
+      font-weight: 500;
+    }
+  .email:focus {
+    outline: none;
+    color: #ffffff;
+    opacity: 1;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 500;
+      }
+  
+  .message {
+    height: 96px;
+    width: 220px;
+    resize: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 19px 21px 0px 21px;
+    overflow: auto;
+    
+  
+  
+    border: none;
+  }
+  .message::placeholder {
+      color: #ffffff80;
+      /* padding: 19px 21px; */
+      font-family: "Poppins";
+      font-size: 18px;
+      font-weight: 500;
+    }
+  .message:focus {
+    outline: none;
+    color: #ffffff;
+    opacity: 1;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .button{
+    height: 32px;
+    width: 80px;
+    border-radius: 8px;
+    border-color: #389172;
+    border: 2px solid #fff;
+    background: #fff;
+    color: #389172;
+      font-family: "Poppins";
+      font-size: 18px;
+      font-weight: 600;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+  
+  }
+  
   
 }

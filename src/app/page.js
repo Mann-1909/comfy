@@ -4,6 +4,7 @@ import Navbar from '../../components/common/Navbar'
 import HeroPage from '../../components/hero-page/HeroPage'
 import About from '../../components/aboutus/About'
 import Contact from '../../components/contact/Contact'
+import Shop from '../../components/shop/Shop'
 import Footer from '../../components/footer/Footer'
 
 export default function Page() {
@@ -13,7 +14,9 @@ export default function Page() {
       <HeroPage></HeroPage>
       <About></About>
       <Contact></Contact>
-      <Footer></Footer>
+      <Footer></Footer> 
+      {/* <Shop/> */}
+
     </div>
   )
 }

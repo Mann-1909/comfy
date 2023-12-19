@@ -6,7 +6,7 @@ export default function HeroPage() {
     <div>
       <div className={styles['wrapper']}>
         <div className={styles['text-wrapper']}>
-          <div className={styles['text']}>
+          <div className={styles['text']}> 
             Make your room comfy and beautiful.
           </div>
           <div className={styles['btn-wrapper']}>
