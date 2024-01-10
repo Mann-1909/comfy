@@ -14,7 +14,9 @@ export default function HeroPage() {
             <div className={styles['contact']}>Contact</div>
           </div>
         </div>
-        <div className={styles['image']}></div>
+        <div className={styles['image']}>
+          
+        </div>
           
       </div>
     </div>
