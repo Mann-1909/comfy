@@ -1,8 +1,11 @@
 {
   "name": "comfy",
   "version": "0.1.0",
+  "homepage": "https://github.com/Mann-1909/comfy.git",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build", 
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -11,6 +14,7 @@
   "dependencies": {
     "eslint": "8.49.0",
     "eslint-config-next": "13.4.19",
+    "gh-pages": "^6.1.1",
     "next": "^13.4.19",
     "react": "18.2.0",
     "react-dom": "18.2.0"
